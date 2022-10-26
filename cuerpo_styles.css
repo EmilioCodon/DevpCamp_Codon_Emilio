@@ -1,0 +1,159 @@
+.cuerpo{
+
+    background-color: rgb(48, 52, 66);
+    box-shadow: inset -10px -10px 20px 0 black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-top: 120px;
+    
+    
+
+
+    
+}
+
+.cuerpo > .izquierda  {
+
+width:70%;
+padding-right: 50px;
+margin-left: 50px;
+
+
+
+
+
+
+}
+
+
+
+.cuerpo > .izquierda > .texto {
+
+
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    padding-left: 30px;
+    font-size: 18px;
+    
+    
+}
+
+.cuerpo > .izquierda > .texto h1 {
+
+
+
+    color: white;
+   
+    padding-bottom: 5px;
+    font-size: 2.1em;
+
+
+}
+
+.cuerpo > .izquierda > .texto h2 {
+
+
+
+    color:grey;
+    
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.cuerpo > .izquierda > .texto i{
+
+    color: yellow;
+    
+}
+
+.cuerpo > .izquierda > .letreros {
+
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+    
+    
+
+}
+
+
+.cuerpo > .izquierda > .letreros > .free {
+    
+    
+    display: inline-block;
+    background-color: rgb(24, 173, 24);
+    font-size: 20px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+
+    border-radius: 5px;
+
+}
+
+.cuerpo > .izquierda > .letreros > .more {
+    
+    color: white;
+    background-color: black;
+    
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+    padding-left: 40px;
+    padding-right: 40px;
+
+    font-size: 20px;
+    text-align: center;
+
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.cuerpo > .derecha {
+
+    margin-top: 40px;
+    margin-left: 150px;
+    
+}
+
+.cuerpo > .derecha > .imagen  {
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+    box-shadow: 0px 0px 10px 5px black;
+    
+
+}
+
+.cuerpo > .derecha >.texto_imagen {
+
+
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+
+
+}
+
+    
+body{
+
+    margin-right: 0px;
+}
+

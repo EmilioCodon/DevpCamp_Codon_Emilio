@@ -1,0 +1,186 @@
+body{
+
+    margin: 0px 0px 0px 0px;
+    margin-right: 0px;
+    box-shadow: inset -10px -10px 20px 0 black;
+
+}
+
+header{
+
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 5px;
+
+    padding-right: 8.5px;
+
+    position: fixed;
+    z-index: 1000;
+    top:0;
+
+}
+
+header > .logo > img {
+
+    padding-left: 15px;
+
+
+}
+
+header > .barra {
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 35px;
+    
+}
+
+header > .barra > .explore {
+
+    padding-top: 10px;
+    display: flex;
+    color:rgb(243, 209, 18);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+ 
+
+header > .barra > .menu ul li {
+
+
+    
+    display: inline-block;
+    
+
+}
+
+header > .barra > .menu ul {
+
+
+    padding-right: 10px;
+    margin-left: -40px;
+    
+    
+}
+
+header > .barra > .menu ul li a {
+
+
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+}
+
+header > .spark {
+
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: gray;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-right: 60px;
+}
+
+
+header > .spark > .icono_abajo i{
+
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+header > .botones {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+
+}
+
+header > .botones > .create{
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        background-color: grey;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 7px;
+
+}
+header > .botones > .create >.icono_abajo_verde i {
+
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+header > .botones > .lupa{
+
+    margin-right: 10px;
+    
+
+
+
+}
+
+
+header > .botones > .lupa i{
+
+    padding-left: 15px;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+
+header > .botones > .loggin{
+
+    margin-right: 10px;
+    background-color: grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+    
+
+}
+
+
+header > .botones > .sign{
+
+    margin-right: 10px;
+    background-color: grey;       
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+
+
+}
